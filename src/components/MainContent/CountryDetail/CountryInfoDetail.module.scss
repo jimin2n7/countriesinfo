@@ -1,0 +1,55 @@
+.countryInfoDetail{
+    margin-left: 20px;
+}
+
+.countryName{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 18px;
+}
+
+td{
+    text-align: left;
+    padding: 8px;
+}
+
+.countryInfo__title{
+    font-weight: 400;
+    max-width: max-content;
+}
+
+.countryInfo__value{
+    font-weight: 400;
+}
+
+.borderList{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.borderItem{
+    border-radius: 4px;
+    padding: 4px 8px;
+    margin: 8px 12px 8px 0;
+    box-shadow: var(--boxShadow);
+    width: max-content;
+    text-align: center;
+    user-select: none;
+    transition: all 0.2s linear;
+    opacity: 0.75;
+    font-size: 14px;
+    font-weight: 700;
+    &:hover{
+        opacity: 1;
+        font-weight: bold;
+        cursor: pointer;
+    }
+}
