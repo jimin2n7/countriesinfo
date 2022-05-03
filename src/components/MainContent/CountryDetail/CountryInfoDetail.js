@@ -90,9 +90,9 @@ const CountryInfoDetail = (props) => {
                                 <td className={styles.borderList}>
                                     {
                                         borders.length>0? borders.map((border,index)=>(
-                                            <Link key={index} to= {`/country/${border}`}>
+                                            <span key={index}>
                                                 <div  className={`${styles.borderItem} ${theme}`}>{border}</div>
-                                            </Link>
+                                            </span>
                                         ))
                                         : 'No infomation'
                                     }
